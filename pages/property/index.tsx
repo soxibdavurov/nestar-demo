@@ -1,6 +1,6 @@
 const PropertyList = () => {
 
-    console.log("COMMUNITY COMPONENT PAGES ROUTER");
+    console.log("PROPERTY PAGES ROUTER");
     return <div> PROPERTY LIST</div>
 }
 
