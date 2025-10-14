@@ -1,6 +1,20 @@
-import "@/styles/globals.css";
+// pages/_app.tsx
 import type { AppProps } from "next/app";
-console.log("APP DOCUMENT PAGES ROUTER");
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import { CssBaseline } from "@mui/material";
+import React, { useState } from "react";
+import { light } from "../scss/MaterialTheme";
+
+function MyApp({ Component, pageProps }: AppProps) {
+  // @ts-ignore
+  const [theme, setTheme] = useState(createTheme(light));
+
+  return (
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Component {...pageProps} />
+    </ThemeProvider>
+  );
 }
+
+export default MyApp;
