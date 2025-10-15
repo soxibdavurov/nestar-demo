@@ -4,6 +4,7 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
 import React, { useState } from "react";
 import { light } from "../scss/MaterialTheme";
+import "../scss/app.scss";
 
 function MyApp({ Component, pageProps }: AppProps) {
   // @ts-ignore
