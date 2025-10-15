@@ -6,22 +6,20 @@ const Home: NextPage = () => {
   return (
     <>
 
-      <Stack>
-        <Stack flexDirection={"column"}>
+      <Stack className={"home-page"}>
 
-          <Stack>
-            <Stack className="container">Popular Properties</Stack>
-          </Stack>
-
-          <Stack className="container">
-            <Box>Top Agents</Box>
-          </Stack>
-
-          <Stack className="container">
-            <Box>Top Properties</Box>
-          </Stack>
-
+        <Stack>
+          <Stack className="container">Popular Properties</Stack>
         </Stack>
+
+        <Stack className="container">
+          <Box>Top Agents</Box>
+        </Stack>
+
+        <Stack className="container">
+          <Box>Top Properties</Box>
+        </Stack>
+
       </Stack>
     </>
   );
