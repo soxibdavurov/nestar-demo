@@ -41,7 +41,7 @@ const PopularPropertyCard = () => {
                 <div className={"bott"}>
                     <p>rent</p>
                     <div className="view-like-box">
-                        <IconButton color={"default"}>
+                        <IconButton style={{ color: "black" }}>
                             <RemoveRedEyeIcon />
                         </IconButton>
                         <Typography className="view-cnt">100</Typography>

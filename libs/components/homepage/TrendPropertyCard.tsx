@@ -10,14 +10,14 @@ const TrendPropertyCard = () => {
             <Box
                 className={"card-img"}
                 style={{
-                    backgroundImage: 'url("/img/banner/types/house.webp")',
+                    backgroundImage: 'url("/img/banner/types/villa.webp")',
                 }}
             >
                 <div>$10</div>
             </Box>
             <Box className={"info"}>
                 <strong className={"title"}>Kingston Buildings</strong>
-                <p className={"des"}>This is super view apartments</p>
+                <p className={"desc"}>This is super view apartments</p>
                 <div className={"options"}>
                     <div>
                         <img src="/img/icons/bed.svg" alt="" />
